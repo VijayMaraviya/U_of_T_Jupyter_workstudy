@@ -1,0 +1,59 @@
+How to install the python package habanero from Jupyter notebook?
+
+Short answer: copy, paste, and run '!pip install habanero' inside a cell in a Jupyter notebook.
+
+Detailed steps:
+
+ 1) Please log in at https://utoronto.2i2c.cloud/. Select the Jupyter notebook option and click on the login. (Orange button)
+ 
+ 2) Ensure that the 'File' tab is selected on the home page.
+ 
+ 3) Click on the drop-down button named 'New' located at the top right corner. Open a Jupyter notebook by clicking on 'Python 3'. 
+ 
+ 4) This will open a new notebook in a separate browser tab. 
+ 
+ 5) Inside a cell in a new notebook, copy and paste the command: !pip install habanero
+ 
+ 6) Run the cell. You can click the 'Run' button from the toolbar or use the keyboard shortcut 'Ctrl + Enter' to run the cell. Make sure that the cell is selected.
+ 
+ 7) Wait for the installation process to finish.
+ 
+ 8) You will see the message starting with: 'Successfully installed ...'
+ 
+ 9) That's it.
+ 
+ 
+
+How to install the R package emo(ji) from Jupyter notebook?
+
+Short answer: copy, paste, and run 'devtools::install_github("hadley/emo")' inside a cell in a Jupyter notebook.
+
+Detailed steps:
+
+ 1) Please log in at https://utoronto.2i2c.cloud/. Select the Jupyter notebook option and click on the login. (Orange button)
+ 
+ 2) Ensure that the 'File' tab is selected on the home page.
+ 
+ 3) Click on the drop-down button named 'New' located at the top right corner. Open a Jupyter notebook by clicking on 'R'. 
+ 
+ 4) This will open a new notebook in a separate browser tab.
+ 
+ 5) Inside a cell in a new notebook, copy, paste, and run the command: install.packages("devtools"). If you have devtools already installed, you will see the message starting with: 'Skipping install...'. Move to the next step. 
+ 
+ 6) Inside a cell in the notebook, copy and paste the command: devtools::install_github("hadley/emo")
+ 
+ 7) Run the cell. You can click the 'Run' button from the toolbar or use the keyboard shortcut 'Ctrl + Enter' to run the cell. Make sure that the cell is selected.
+ 
+ 8) Wait for the installation process to finish.
+ 
+ 9) You will see the message starting with: 'Installing ...'. Wait for the cell to finish running the command.
+ 
+ 10) That's it.
+
+
+
+What can you do with the emo(ji) package?
+
+You can use this package to insert emojis in your RMarkdown cells or documents. You can either refer to an emoji by a name or keyword. Please note that keywords are not unique, and the package will pick one at random from all the similar options.
+
+You can find more detailed documentation at https://github.com/hadley/emo. Look for the README file.
